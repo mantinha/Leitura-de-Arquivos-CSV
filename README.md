@@ -9,7 +9,15 @@
 <!--ts-->   
    * [Como usar](#como-usar)
       * Somente é necessário instanciar a classe
-      * LeituraCSV leitor = new LeituraCSV();
+      ```
+      LeituraCSV leitor = new LeituraCSV();
+      ```
+      * O arquivo .csv pode ser modificado
+      ```
+      private final String nomeDoArquivo = "teste.csv";
+      ```
+      * Assim como o POJO que representa o cabeçalho
+      <p><a href="https://github.com/mantinha/Leitura-de-Arquivos-CSV/blob/master/Leitura-de-Arquivos-CSV/src/main/java/br/adriano/pojo/Pessoa.java">..\Leitura-de-Arquivos-CSV\src\main\java\br\adriano\pojo\Pessoa.java</a></p>
 <!--te-->
 
 ### 🛠 Tecnologias

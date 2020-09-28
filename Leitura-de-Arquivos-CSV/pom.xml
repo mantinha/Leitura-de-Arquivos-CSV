@@ -3,4 +3,12 @@
   <groupId>br.adriano.tutorial</groupId>
   <artifactId>Leitura-de-Arquivos-CSV</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+	<dependency>
+		<groupId>com.opencsv</groupId>
+		<artifactId>opencsv</artifactId>
+		<version>5.2</version>
+	</dependency>
+  </dependencies>
 </project>

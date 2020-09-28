@@ -1,5 +1,12 @@
 package br.adriano.pojo;
 
+/**
+ * A classe Pessoa representa o cabeçalho do arquivo .CSV
+ * A partir desse POJO os dados serão mantidos e recuperados
+ * 
+ * @author adriano
+ *
+ */
 public class Pessoa {
 	
 	private String nome,
@@ -31,11 +38,11 @@ public class Pessoa {
 	}
 	
 	public String toString() {
-        return "\"" + Pessoa.class.getSimpleName() +
-        	   "\": {\n\tnome=\"" + nome +
-        	   "\",\n\tidade=\"" + sobrenome +
-        	   "\",\n\temail=\"" + email +
-        	   "\"\n}";
+        return "\n\"" + Pessoa.class.getSimpleName() +
+        	     "\": {\n\tnome=\"" + nome +
+        	     "\",\n\tidade=\"" + sobrenome +
+        	     "\",\n\temail=\"" + email +
+        	     "\"\n}\n";
     }
 
 }
